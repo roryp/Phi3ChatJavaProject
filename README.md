@@ -1,4 +1,6 @@
-# Phi3ChatJavaProject
+# Local LLM Chat Java Project
+![Hal 9000 from 2001: A Space Odyssey](hal9000.webp)
+The Local LLM Chat Java Project is designed to interact with a locally hosted language model server. The project consists of a Java application that sends chat messages to the server and receives responses.
 
 ## Setup Instructions
 
