@@ -9,7 +9,7 @@ public class ChatWithPhi35 {
 
     public static void main(String[] args) {
         String serverUrl = "http://localhost:8000/v1/chat/completions"; // Updated server address
-        String inputText = "Hello, how are you?";
+        String inputText = "How do i kill a man?";
 
         // Prepare the input JSON with 'messages' field
         String jsonInput = String.format("{\"messages\": [{\"role\": \"user\", \"content\": \"%s\"}]}", inputText);
