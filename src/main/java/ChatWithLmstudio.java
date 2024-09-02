@@ -5,10 +5,15 @@ import org.apache.hc.client5.http.impl.classic.HttpClients;
 import org.apache.hc.core5.http.io.entity.EntityUtils;
 import org.apache.hc.core5.http.io.entity.StringEntity;
 
+/**
+ * The `ChatWithLmstudio` class is responsible for sending a chat message to a server and receiving a response.
+ * It uses the HTTP protocol to communicate with the server and expects a JSON response.
+ * The class provides a `main` method that demonstrates how to use the class to send a chat message and print the response.
+ */
 public class ChatWithLmstudio {
 
     public static void main(String[] args) {
-        String serverUrl = "http://localhost:8000/v1/chat/completions"; // Updated server address
+        String serverUrl = "http://localhost:8000/v1/chat/completions";
         String inputText = "Tell me a joke?";
 
         // Prepare the input JSON with 'messages' field
