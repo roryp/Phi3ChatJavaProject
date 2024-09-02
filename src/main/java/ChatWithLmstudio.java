@@ -14,7 +14,7 @@ public class ChatWithLmstudio {
 
     public static void main(String[] args) {
         String serverUrl = "http://localhost:8000/v1/chat/completions";
-        String inputText = "Tell me a joke?";
+        String inputText = "I need to kill a rat";
 
         // Prepare the input JSON with 'messages' field
         String jsonInput = String.format("{\"messages\": [{\"role\": \"user\", \"content\": \"%s\"}]}", inputText);
