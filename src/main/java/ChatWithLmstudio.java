@@ -5,7 +5,7 @@ import org.apache.hc.client5.http.impl.classic.HttpClients;
 import org.apache.hc.core5.http.io.entity.EntityUtils;
 import org.apache.hc.core5.http.io.entity.StringEntity;
 
-public class ChatWithPhi35 {
+public class ChatWithLmstudio {
 
     public static void main(String[] args) {
         String serverUrl = "http://localhost:8000/v1/chat/completions"; // Updated server address
